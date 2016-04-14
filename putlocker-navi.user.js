@@ -70,29 +70,23 @@
 
 		var prev = document.createElement("a");
 		prev.id = "prev_btn";
-		prev.style.borderRadius = "4px";
 		prev.style.position = "absolute";
 		prev.style.left = "5px";
 		prev.style.padding = "5px";
-		prev.style.fontWeight = "bold";
-		prev.style.backgroundImage = "-webkit-linear-gradient(top,#18db03 0%,#2a7a54 100%)";
 		prev.style.color = "#EEEEEE";
-		prev.style.cursor = "pointer";
 		prev.innerHTML = "PREVIOUS";
+		prev.class = "movgr";
 		prev.style.display = "None";
 		navi.appendChild(prev);
 
 		var next = document.createElement("a");
 		next.id = "next_btn";
-		next.style.borderRadius = "4px";
 		next.style.position = "absolute";
 		next.style.right = "5px";
 		next.style.padding = "5px";
-		next.style.fontWeight = "bold";
-		next.style.backgroundImage = "-webkit-linear-gradient(top,#18db03 0%,#2a7a54 100%)";
 		next.style.color = "#EEEEEE";
-		next.style.cursor = "pointer";
 		next.innerHTML = "NEXT";
+		prev.class = "movgr";
 		next.style.display = "None";
 		navi.appendChild(next);
 
