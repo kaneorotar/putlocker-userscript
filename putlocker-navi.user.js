@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Putlocker Navigation Buttons
 // @namespace    http://rotar.tk/
-// @version      0.1
+// @version      0.1.1
 // @description  Add navigation buttons (previous,next) under putlocker tvshow videos.
 // @author       Rotar
 // @match        http://putlocker.is/watch*
@@ -12,7 +12,7 @@
 (function() {
 	'use strict';
 	var curl = window.location.href;
-	var vals = /watch-([a-z]*)-tvshow(-season-([0-9]{1,2})-episode-([0-9]{1,2}))?-online/.exec(curl);
+	var vals = /watch-([a-z0-9\-]*)-tvshow(-season-([0-9]{1,2})-episode-([0-9]{1,2}))?-online/.exec(curl);
 	var se = 0, ep = 0;
 	var iurl = curl.replace(/-season-([0-9]{1,2})-episode-([0-9]{1,2})/,"");
 	var retries = 3;
