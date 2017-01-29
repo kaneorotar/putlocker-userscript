@@ -2,11 +2,11 @@
 // @name         Putlocker Navigation Buttons
 // @name:zh-CN   Putlocker电视剧上/下集按钮
 // @namespace    http://rotar.tk/
-// @version      0.1.3
+// @version      0.1.4
 // @description  Add navigation buttons (previous,next) under putlocker tvshow videos.
 // @description:zh-CN  在Putlocker电视剧播放页面添加上/下集按钮。
 // @author       Rotar
-// @match        http://putlocker.is/watch*
+// @match        http://putlockers.ch/watch*
 // @grant        none
 // @downloadURL  https://github.com/kaneorotar/putlocker-userscript/raw/master/putlocker-navi.user.js
 // ==/UserScript==
